@@ -1,0 +1,98 @@
+.add-task {
+  display: flex;
+}
+
+.new-task {
+  width: 350px;
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.tasks {
+  padding-left: 10px;
+  margin: 0 0 2em 0;
+  list-style-type: none;
+}
+.tasks li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 40px;
+  border-radius: 4px;
+}
+.tasks li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.tasks li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.tasks .text {
+  position: relative;
+  top: -3px;
+}
+.tasks .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 40px;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+.done-style {
+  margin-left: 10px;
+  color: red;
+}
+
+
+button.delete {
+  position: relative;
+  float: right;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+
+.change {
+  padding-left: 15px;
+}
+
+.action-group {
+  display: flex;
+}
+
+.change h4 {
+  margin-right: 15px;
+}
+
+.check-done {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.save {
+  margin-right: 10px;
+}
+
+
+

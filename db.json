@@ -1,0 +1,19 @@
+{
+  "post": [
+    {
+      "action": "Clean PC",
+      "done": true,
+      "id": 1
+    },
+    {
+      "action": "Learn Angular7",
+      "done": false,
+      "id": 2
+    },
+    {
+      "action": "Check update",
+      "done": false,
+      "id": 3
+    }
+  ]
+}
